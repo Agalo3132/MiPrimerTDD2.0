@@ -11,25 +11,25 @@ class TestsCoche {
     }
 	
     @Test
-    public void test_al_acelerar_un_coche_su_velocidad_aumenta(){
+    public void test_al_acelerar_un_coche_su_velocidad_aumenta_Alvaro_Serrano(){
         Coche nuevoCoche = new Coche();
-        nuevoCoche.acelerar(30);
+        nuevoCoche.acelerar_AlvaroSerrano(30);
         Assertions.assertEquals(30, nuevoCoche.velocidad);
     }
     
     @Test
-    public void test_al_decelerar_un_coche_su_velocidad_disminuye(){
+    public void test_al_decelerar_un_coche_su_velocidad_disminuye_Alvaro_Serrano(){
         Coche nuevoCoche = new Coche();
         nuevoCoche.velocidad = 50;
-        nuevoCoche.decelerar(20);
+        nuevoCoche.decelerar_Alvaro_Serrano(20);
         Assertions.assertEquals(30, nuevoCoche.velocidad);
     }
     
     @Test
-    public void test_al_decelerar_un_coche_su_velocidad_no_puede_ser_menor_que_cero(){
+    public void test_al_decelerar_un_coche_su_velocidad_no_puede_ser_menor_que_cero_Alvaro_Serrano(){
         Coche nuevoCoche = new Coche();
         nuevoCoche.velocidad = 50;
-        nuevoCoche.decelerar(80);
+        nuevoCoche.decelerar_Alvaro_Serrano(80);
         Assertions.assertEquals(0, nuevoCoche.velocidad);
     }
 
