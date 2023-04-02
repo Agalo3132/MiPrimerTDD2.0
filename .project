@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>Mi primer TDD 2.0_AlvaroSerrano.pdf</name>
+			<type>1</type>
+			<location>D:/phas/Mi primer TDD 2.0_AlvaroSerrano.pdf</location>
+		</link>
+	</linkedResources>
 </projectDescription>
